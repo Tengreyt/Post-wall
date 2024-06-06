@@ -1,0 +1,29 @@
+*{
+    font-family: 'Gilroy-Bold', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    padding: 10px;
+    background: #e1dfdf;
+    font-size: 24px;
+}
+
+header > .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card-list{
+    padding: 30px 10px 10px 10px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="./assets/style/ui.css">
+    <title>Post-wall</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                Post Wall
+            </div>
+
+            <button class="button-arounder open-modal">Добавить пост</button>
+        </div>
+    </header>
+
+
+    <div class="container card-list"></div>
+
+    <div class="modal-wrapper">
+        <div class="modal">
+            <div class="modal-head">
+                <h3>Создание поста</h3>
+                <div class="close" >✕</div>
+            </div>
+            <div class="form__group field">
+                <input type="input" class="form__field" placeholder="Name" name="name" id='username' required />
+                <label for="username" class="form__label">Имя пользователя</label>
+            </div>
+
+            <div class="form__group field">
+                <input type="input" class="form__field" placeholder="Name" name="name" id='avatar' required />
+                <label for="avatar" class="form__label">Аватар URL</label>
+            </div>
+
+            <div class="form__group field">
+                <input type="input" class="form__field" placeholder="Name" name="name" id='description' required />
+                <label for="description" class="form__label">Описание</label>
+            </div>
+
+            <div class="form__group field">
+                <input type="input" class="form__field" placeholder="Name" name="name" id='title' required />
+                <label for="title" class="form__label">Заголовок статьи</label>
+            </div>
+
+            <div class="form__group field">
+                <input type="input" class="form__field" placeholder="Name" name="name" id='image' required />
+                <label for="image" class="form__label">Превью URL</label>
+            </div>
+
+            <button class="button-arounder post-modals" >Добавить пост</button>
+        </div>
+    </div>
+
+    <script type="module" src="./script/app.js"></script>
+    <script type="module" src="./script/events.js"></script>
+
+</body>
+</html>
